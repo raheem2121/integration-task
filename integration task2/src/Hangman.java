@@ -1,12 +1,6 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Random;
 
 public class Hangman {
-
-    private ArrayList<Character> unknownWord = new ArrayList<Character>();
+	private ArrayList<Character> unknownWord = new ArrayList<Character>();
     private char[] arr;
     private int number;
 
@@ -53,4 +47,4 @@ public class Hangman {
 
 }
 
-
+}

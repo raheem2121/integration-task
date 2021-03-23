@@ -1,11 +1,7 @@
-import java.io.*;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import java.io.IOException;
 
 public class Game {
-    Hangman theComputer;
+	Hangman theComputer;
     private ArrayList<Character> dashesForSecretWord = new ArrayList<>();
     private String guess;
     private static int numberOfWarnings ;
@@ -15,7 +11,7 @@ public class Game {
     private String word;
     private boolean hasUserWonGame;
     private char letter;
-    private MainClass game;
+    private CardPanel game;
     private int score;
     private int lengthOfWord;
     private ArrayList<Integer> scores;
