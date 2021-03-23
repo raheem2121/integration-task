@@ -97,10 +97,9 @@ public class CardPanel extends JPanel {
     			    	 break; 
     			     case 2: 
     			    	 System.out.println("THe option you selected is Hangman B");
-    			    	 //call hangman B
-    			    
-    			    	 
-    			    	 break;
+    			    	
+    			    	 Main.mainHangmanGame();
+    			         break;
     			     case 3: 
     			    	 System.out.println("THe option you selected is Snakes and Ladders A");
     			    	 //call snakes and ladders A
