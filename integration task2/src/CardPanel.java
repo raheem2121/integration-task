@@ -103,6 +103,7 @@ public class CardPanel extends JPanel {
     			     case 3: 
     			    	 System.out.println("THe option you selected is Snakes and Ladders A");
     			    	 //call snakes and ladders A
+				Start.LadderGame();
     			    	 break; 
     			    	 
     			    	 
