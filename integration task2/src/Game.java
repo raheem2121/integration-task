@@ -1,4 +1,13 @@
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
 
 public class Game {
 	Hangman theComputer;
@@ -178,7 +187,7 @@ public class Game {
     }
 
     public void anotherGame() throws IOException {//This is the method to start a new game
-        MainClass game2 = new MainClass();
+        Main game2 = new Main();
         game2.newGame();
     }
 

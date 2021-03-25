@@ -12,7 +12,6 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import org.json.JSONException;
 
-import com.sun.tools.javac.launcher.Main;
 
 public class CardPanel extends JPanel {
 	//creating JPanel to implement CardLayout
@@ -96,14 +95,14 @@ public class CardPanel extends JPanel {
 		    		        });
     			    	 break; 
     			     case 2: 
-    			    	 System.out.println("THe option you selected is Hangman B");
+    			    	 System.out.println("The option you selected is Hangman B");
     			    	
     			    	 Main.mainHangmanGame();
     			         break;
     			     case 3: 
-    			    	 System.out.println("THe option you selected is Snakes and Ladders A");
+    			    	 System.out.println("The option you selected is Snakes and Ladders A");
     			    	 //call snakes and ladders A
-				Start.LaddersGame();
+    			    	 Start.LaddersGame();
     			    	 break; 
     			    	 
     			    	 

@@ -6,7 +6,7 @@ import javax.swing.*;
 
 public class Start {
 
-	public static void main LaddersGame() {
+	public static void LaddersGame() {
 
 		new Ladders();
 	}
@@ -39,7 +39,7 @@ class Ladders extends JFrame {
 
 		b1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				Ladder l = new Ladder();
+				Ladders l = new Ladders();
 			}
 		});
 
