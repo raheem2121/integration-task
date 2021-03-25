@@ -205,7 +205,7 @@ public class Game {
 
     public void writeFile() {//This method reads the file containing the score
         String ScoreValue = String.valueOf(score);
-        File newFile = new File("https://drive.google.com/file/d/1_ITBfSrelz7h-jufZWhuSm_UcYlgHK63/view?usp=sharing");
+        File newFile = new File("Scores.txt");
         try {
             FileWriter write = new FileWriter(newFile, true);
             BufferedWriter buffer = new BufferedWriter(write);
