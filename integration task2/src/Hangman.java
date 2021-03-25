@@ -12,7 +12,7 @@ public class Hangman {
 
     public String chooseWord() throws IOException {//This method chooses the word from a file
 
-        FileReader fileR = new FileReader("C:\\Users\\SLL014\\IdeaProjects\\Actual Game\\random words.txt");
+        FileReader fileR = new FileReader("random words.txt");
         BufferedReader buffReader = new BufferedReader(fileR);
         String line;
         ArrayList<String> arr = new ArrayList<String>();
